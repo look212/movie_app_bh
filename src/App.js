@@ -38,6 +38,7 @@ class App extends React.Component {
                                 year={movie.year}
                                 id={movie.id}
                                 title={movie.title}
+                                genres={movie.genres}
                             />
                         ))}
                     </div>
